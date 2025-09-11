@@ -3,7 +3,6 @@ package com.example.todoappnodb.db
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.example.todoappnodb.Todo
 
 @Database(
     entities = [Todo::class]

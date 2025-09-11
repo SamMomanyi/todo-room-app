@@ -2,11 +2,10 @@ package com.example.todoappnodb
 
 import android.os.Build
 import androidx.annotation.RequiresApi
-import androidx.compose.ui.input.key.Key.Companion.D
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.todoappnodb.db.Todo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.Date

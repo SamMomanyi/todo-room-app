@@ -2,10 +2,8 @@ package com.example.todoappnodb.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
-import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.todoappnodb.Todo
 
 @Dao  //a prefix to show it is a dao class
 interface todoDao {
