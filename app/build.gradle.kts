@@ -4,8 +4,6 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     //room
     alias(libs.plugins.ksp)
-   
-        //room
 
 }
 

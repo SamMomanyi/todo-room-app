@@ -17,4 +17,5 @@ interface todoDao {
     fun addToDo(todo : Todo)
     @Query("Delete FROM todos where id = :id") //colon then id states get from parameter
     fun deleteTodo(id : Int)
+
 }
